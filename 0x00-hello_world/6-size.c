@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* this is my size function */
+/**
+ * main - tes docs
+ * Return: inte
+ */
 
 int main(void)
 {
