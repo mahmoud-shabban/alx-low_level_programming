@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -c -o -o "$(echo $test | sed "s/.c/.o/")" $test 
