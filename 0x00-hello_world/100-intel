@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc --fgnu-tm -S $CFILE  -o "$(echo $CFILE | sed "s/.c/.s/")"
+gcc -masm=intel -S $CFILE  -o "$(echo $CFILE | sed "s/.c/.s/")"
