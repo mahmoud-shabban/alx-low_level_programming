@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+/**
+ * main - tes docs
+ * Return: inte
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -18,7 +23,7 @@ int main(void)
 	}
 	else if (last_d == 0)
 	{
-		printf("%d is zero", last_d); 
+		printf("%d is zero", last_d);
 	}
 	else if (last_d < 0)
 	{
