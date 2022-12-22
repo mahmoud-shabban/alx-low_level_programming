@@ -12,7 +12,7 @@ int main(void)
 	char list[] = "_putchar";
 	/* the arrary length in c */
 	arr_len = sizeof(list) / sizeof(list[0]);
-	for (i = 0; i < arr_len -1; i++)
+	for (i = 0; i < arr_len - 1; i++)
 	{
 		_putchar(list[i]);
 	}
