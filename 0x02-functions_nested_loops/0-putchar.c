@@ -16,5 +16,6 @@ int main(void)
 	{
 		_putchar(list[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
