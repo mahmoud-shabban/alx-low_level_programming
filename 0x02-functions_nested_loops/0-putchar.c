@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - tes docs
@@ -8,7 +9,12 @@
 
 int main(void)
 {
-	
-	printf("_putchar");
+	int i, arr_len;
+	char list[] = "_putchar";
+	arr_len = sizeof(list)/sizeof(list[0]);
+	for(i=0; i< arr_len; i++)
+	{
+		_putchar(list[i]);
+	}
 	return (0);
 }
