@@ -11,6 +11,7 @@ int main(void)
 {
 	int i, arr_len;
 	char list[] = "_putchar";
+	/* the arrary length in c */
 	arr_len = sizeof(list)/sizeof(list[0]);
 	for(i=0; i< arr_len; i++)
 	{
